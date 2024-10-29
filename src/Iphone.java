@@ -1,13 +1,12 @@
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     private String modelo;
-    private String numeroDeSerie;
+    private String numeroSerie;
 
     public Iphone(String modelo, String numeroDeSerie) {
         this.modelo = modelo;
-        this.numeroDeSerie = numeroDeSerie;
+        this.numeroSerie = numeroDeSerie;
     }
 
-    // Implementação dos métodos de ReprodutorMusical
     public void tocar() {
         System.out.println("Reproduzindo música.");
     }
