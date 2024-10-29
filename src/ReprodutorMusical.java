@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class ReprodutorMusical {
+public interface ReprodutorMusical {
+    void tocar();
+    void pausar();
+    void escolherMusica(String musica);
 }
